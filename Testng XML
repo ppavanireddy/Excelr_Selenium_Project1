@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MagentoTestSuite">
+
+    <test name="MagentoTest">
+        <classes>
+            <class name="Tests.Magento">
+                <methods>
+                    <include name="testHomePage"/>
+                    <include name="testCreateAccountandSignin"/>
+                    <include name="testInvalidLogin"/>
+                    <include name="testLoginAndSearch"/>
+                    <include name="verifySearchResults"/>
+                    <include name="testLoginAndAddtocartandRemove"/>
+                    <include name="testLoginAndAddtocartandUpdate"/>
+                    <include name="testloginAndProceedtoCheckout"/>
+                    <include name="testloginAndWishlist"/>
+                    <include name="testLoginAndCompare"/>
+                    <include name="testSearchInvalidProduct"/>
+                    <include name="testLoginAndcheckMyOders"/>
+                    <include name="testLoginAndcheckAddressBook"/>
+                    <include name="testMyProductReviews"/>
+                    <include name="training"/>
+                    <include name="testAdvancedSearch"/>
+                    <include name="SearchTerms"/>
+                    <include name="testWriteReview"/>
+                    <include name="testSubscribe"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
